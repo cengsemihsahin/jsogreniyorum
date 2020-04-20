@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	background-image: url(../assets/account_background.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	background-position: center center;
+}
+
+h1 {
+	font-family: verdana;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+select {
+	height: 23px;
+}
+
+button {
+	width: 148px;
+	height: 50px;
+	font-weight: bold;
+	margin: 8px 0 0 10px;
+	font-size: 20px;
+}
+
+button:hover {
+	font-weight: normal;
+}
+
+.anaBolme {
+	width: 800px;
+	height: 700px;
+	background-color: hsla(70, 50%, 25%, 0.8);
+	margin: 20px auto 0 auto;
+}
+
+.bolme1 {
+	width: 790px;
+	float: left;
+	height: 70px;
+	text-align: center;
+	font-family: verdana;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 20px 0 0 0;
+	margin: 5px;
+	color: white;
+	text-shadow: 15px 2px 15px red;
+}
+
+.bolme2 {
+	width: 790px;
+	float: left;
+	height: 595px;
+	padding: 0;
+	margin: 0 0 0 5px;
+}
+
+.bolme21 {
+	width: 385px;
+	float: left;
+	height: 585px;
+	padding: 0;
+	margin: 5px;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	color: white;
+}
+
+.bolme22 {
+	width: 390px;
+	float: left;
+	height: 585px;
+	padding: 0;
+	margin-top: 5px;
+}
+
+#bolme21_k {
+	float: left;
+	width: 255px;
+	padding: 0 0 0 130px;
+	margin: 0 0 35px 0;
+}
+
+#textElemani1 {
+	width: 148px;
+	font-weight: bold;
+	margin: 76px 0 0 10px;
+}
+
+#textElemani2 {
+	width: 148px;
+	font-weight: bold;
+	margin: 5px 0 0 10px;
+}
+
+#textElemani3 {
+	width: 148px;
+	font-weight: bold;
+	margin: 45px 0 0 10px;
+}
+
+#textElemani4 {
+	width: 148px;
+	font-weight: bold;
+	margin: 5px 0 0 10px;
+}
+
+#kullaniciTipi {
+	width: 148px;
+	font-weight: bold;
+	margin: 92px 0 0 10px;
+}
+
+#gun {
+	margin: 8px 0 0 10px;
+	font-weight: bold;
+}
+
+#ay {
+	margin: 0;
+	font-weight: bold;
+}
+
+#yil {
+	margin: 0;
+	font-weight: bold;
+}
+
+#sehir {
+	margin: 8px 0 0 10px;
+	width: 148px;
+	font-weight: bold;
+}
+
+#e_posta {
+	width: 148px;
+	font-weight: bold;
+	margin: 8px 0 0 10px;
+}
+
+#parola {
+	width: 148px;
+	font-weight: bold;
+	margin: 8px 0 0 10px;
+}
+
+#parola2 {
+	width: 148px;
+	font-weight: bold;
+	margin: 8px 0 0 10px;
+}
+
+.sonuc {
+	width: 148px;
+	height: 25px;
+	padding: 5px 0 0 0;
+	margin: 5px 10px;
+	font-family: verdana;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#bolme22_1 {
+	float: left;
+	width: 170px;
+	height: 585px;
+	margin: 0px;
+	padding: 0;
+}
+
+.bolme22_2 {
+	float: left;
+	width: 220px;
+	height: 585px;
+	margin: 0px;
+	padding: 0;
+}

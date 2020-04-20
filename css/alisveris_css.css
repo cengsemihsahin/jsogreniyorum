@@ -1,0 +1,101 @@
+body {
+	background-image: url(../assets/alisveris2.gif);
+	background-repeat: repeat;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 800px;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+div {
+    width: 300px;
+    padding: 20px;
+    background-color: gray;
+    position: relative;
+    margin: auto;
+}
+
+h1 {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 33px;
+}
+
+button {
+	font-weight: bold;
+	width: 30px;
+	height: 20px;
+	padding: 0;
+	margin-left: 10px;
+	border: 0;
+}
+
+button:hover {
+	font-weight: normal;
+	width: 30px;
+	background-color: red;
+	color: white;
+	padding: 0;
+	margin-left: 10px;
+	border: 0;
+	border-radius: 20px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+#enter {
+	width: 50px;
+	margin-left: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: black;
+	border-radius: 0;
+}
+
+#enter:hover {
+	color: white;
+	border-radius: 0;
+}
+
+#temizle {
+	width: 80px;
+	margin-left: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: black;
+	border-radius: 0;
+}
+
+#temizle:hover {
+	color: white;
+	border-radius: 0;
+}
+
+.ana {
+	background-color: hsla(70, 100%, 25%, 0.5);
+	width: 490px;
+	padding: 5px 0;
+	margin-top: 50px;
+	float: center;
+}
+
+.basGif {
+	height: 270px;
+	padding: 0;
+	margin: 0 0 0 5px;
+	width: 480px;
+	float: center;
+	background-image: url(../assets/alisveris1.gif);
+	background-repeat: no-repeat;
+}
+
+.basList {
+	margin-top: 5px;
+	padding: 20px;
+	float: center;
+}

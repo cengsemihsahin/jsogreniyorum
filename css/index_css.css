@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	background-image: url(../assets/index_background.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	background-position: center center;
+}
+
+.anaKutu {
+	background-color: hsla(130, 55%, 65%, 0.4);
+	width: 1390px;
+	height: 700px;
+	padding: 5px;
+	float: center;
+	margin: auto;
+}
+
+.kutu1 {
+	float: left;
+	width: 390px;
+	height: 52px;
+	margin: 0 5px 0 0;
+	padding: 8px 0 0 100px;
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.kutu2 {
+	float: left;
+	width: 805px;
+	height: 60px;
+	margin: 0;
+	padding: 0 0 0 90px;
+}
+
+.kutu3 {
+	float: left;
+	width: 1390px;
+	height: 635px;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+	width: 704px;
+	border: 0;
+}
+
+li {
+    display: inline-block;
+	width: 350px;
+	border: 0;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+	margin: 0;
+    text-decoration: none;
+	font-family: verdana;
+	font-size: 25px;
+	font-weight: bold;
+	border: 0;
+}
+
+li a:hover{
+    background-color: red;
+	color: white;
+	border: 0;
+}
+
+ul li ul {
+    background-color: gray;
+	color: black;
+    display: none;
+    position: absolute;
+    width: 350px;
+	border: 0;
+}
+
+ul li:hover ul{
+    display: block;
+	border: 0;
+}
+
+li ul li {
+    display: block;
+	border: 0;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

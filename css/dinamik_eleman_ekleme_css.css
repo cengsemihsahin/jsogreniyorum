@@ -1,0 +1,338 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	background-image: url(../assets/kedi.gif);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	background-position: center center;
+}
+
+.anaBolme {
+	width: 1200px;
+	height: 700px;
+	background-color: hsla(70, 50%, 25%, 0.6);
+	margin: 20px auto 0 auto;
+	padding: 0;
+}
+
+.bolme1 {
+	width: 900px;
+	height: 700px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#bolme2 {
+	width: 300px;
+	height: 700px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#bolme1_1 {
+	width: 300px;
+	height: 350px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#bolme1_2 {
+	width: 300px;
+	height: 350px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#bolme1_3 {
+	width: 300px;
+	height: 350px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#bolme1_4 {
+	width: 300px;
+	height: 350px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#bolme1_5 {
+	width: 300px;
+	height: 350px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#bolme1_6 {
+	width: 300px;
+	height: 350px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#baslik {
+	text-align: center;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 30px;
+	color: white;
+	margin: 10px 0;
+	padding: 0;
+	line-height: 25px;
+}
+
+#baslik2 {
+	text-align: center;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 30px;
+	color: white;
+	margin: 10px 0;
+	padding: 0;
+	line-height: 35px;
+}
+
+#baslikMetni {
+	margin: 0 0 0 50px;
+	width: 200px;
+	height: 30px;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+#yaziMetni {
+	margin: 0 0 0 50px;
+	width: 200px;
+	height: 30px;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+#dugmeMetni {
+	margin: 50px 0 0 50px;
+	width: 200px;
+	height: 30px;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+#linkMetni {
+	margin: 50px 0 0 50px;
+	width: 200px;
+	height: 30px;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+#linkAdresi {
+	margin: 3px 0 0 50px;
+	width: 200px;
+	height: 30px;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+#dugme1 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 10px;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme2 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme3 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 5px;
+	padding: 0;
+	height: 55px;
+}
+
+#dugme4 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	height: 55px;
+}
+
+#dugme17 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 44px;
+	padding: 0;
+	height: 55px;
+}
+
+#dugme18 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	height: 55px;
+}
+
+#dugme19 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 30px 0 0 25px;
+	padding: 0;
+	height: 75px;
+	width: 250px;
+}
+
+#paragrafMetni {
+	margin: 0 0 0 35px;
+	padding: 0;
+	width: 230px;
+	height: 200px;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 20px;
+	text-align: left;
+}
+
+#dugme5 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 15px 0 0 34px;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme6 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 15px 0 0 0;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme7 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 35px;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme8 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme9 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 33px;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme10 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme11 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 47px;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme12 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme13 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 47px;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme14 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	height: 35px;
+}
+
+#dugme15 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 20px;
+	padding: 0;
+	height: 85px;
+}
+
+#dugme16 {
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	height: 85px;
+}

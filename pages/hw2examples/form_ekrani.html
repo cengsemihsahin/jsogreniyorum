@@ -1,0 +1,200 @@
+<html>
+
+	<head>
+	
+		<title>Bilgi Formu</title>
+		
+		<style type = "text/css">
+		
+			@import url(../../css/form_css.css);
+			
+		</style>
+		
+	</head>
+
+	<body>
+	
+		<div class = "anaBolme">
+		
+			<div class = "bolme1">KULLANICI KAYIT FORMU</div>
+			
+			<div class = "bolme2">
+			
+				<div class = "bolme21">
+				
+					<h1>Kisisel Bilgiler</h1>
+					
+					<div id = "bolme21_k">
+					
+						TC no:<br>
+						Isim:<br>
+						Soyisim:<br>
+						Dogum Tarihi:<br>
+						Bulundugunuz Sehir:<br>
+					
+					</div>
+					
+					<h1>Kullanici Bilgileri</h1>
+					
+					<div id = "bolme21_k">
+					
+						Kullanici Tipi:<br>
+						e-mail:<br>
+						Sifre:<br>
+						Sifre(tekrar):<br><br>
+						<p style = "margin: 0; padding-bottom: 10px;">
+							<div style = "float: left;">Guvenlik kodu:</div>
+							<img src = "../../assets/secure_code.jpg" style = "padding: 0; margin:0;">
+						</p>
+					
+					</div>
+			
+				</div>
+				
+				<div class = "bolme22"> <!-- FORM KISMI -->
+					<div id = "bolme22_1">
+						<input type = "text" name ="tc_no" id = "textElemani1"><br>
+						<input type = "text" name ="isim" id = "textElemani2"><br>
+						<input type = "text" name ="soyisim" id = "textElemani4"><br>
+						<select id = "gun" name = "day">
+							<option>gun</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+						</select>
+						<select id = "ay" name = "month">
+							<option>ay</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+						</select>
+						<select id = "yil" name = "sene">
+							<option>yil</option>
+							<option>1950</option>
+							<option>1951</option>
+							<option>1952</option>
+							<option>1953</option>
+							<option>1954</option>
+							<option>1955</option>
+							<option>1956</option>
+							<option>1957</option>
+							<option>1958</option>
+							<option>1959</option>
+							<option>1960</option>
+							<option>1961</option>
+							<option>1962</option>
+							<option>1963</option>
+							<option>1964</option>
+							<option>1965</option>
+							<option>1966</option>
+							<option>1967</option>
+							<option>1968</option>
+							<option>1969</option>
+							<option>1970</option>
+							<option>1971</option>
+							<option>1972</option>
+							<option>1973</option>
+							<option>1974</option>
+							<option>1975</option>
+							<option>1976</option>
+							<option>1977</option>
+							<option>1978</option>
+							<option>1979</option>
+							<option>1980</option>
+							<option>1981</option>
+							<option>1982</option>
+							<option>1983</option>
+							<option>1984</option>
+							<option>1985</option>
+							<option>1986</option>
+							<option>1987</option>
+							<option>1988</option>
+							<option>1989</option>
+							<option>1990</option>
+							<option>1991</option>
+							<option>1992</option>
+							<option>1993</option>
+							<option>1994</option>
+							<option>1995</option>
+							<option>1996</option>
+							<option>1997</option>
+							<option>1998</option>
+							<option>1999</option>
+						</select>
+						<br>
+						<select id = "sehir" name = "il">
+							<option>bir onemi yok</option>
+							<option>istanbul</option>
+							<option>ankara</option>
+							<option>eskisehir</option>
+						</select>
+						<br>
+						<select id = "kullaniciTipi" name = "kullanici_tipi">
+							<option>seciniz</option>
+							<option>standart</option>
+							<option>premium</option>
+						</select>
+						<br>
+						<input type = "email" name = "eposta" id = "e_posta">
+						<br>
+						<input type = "password" name = "sifre" id = "parola">
+						<br>
+						<input type = "password" name = "sifreTekrar" id = "parola2">
+						<br>
+						<input type = "text" name ="guvenlik_kodu" id = "textElemani3">
+						<br>
+						<button id = "dugme" onClick = "formBilgileri()">Olustur</button>
+						
+						<div class = "sonuc"></div>
+					</div>
+					
+					<div class = "bolme22_2"></div>
+			
+				</div>
+			
+			</div>
+		
+		</div>
+	
+		<script src = "../../js/form_ekrani_script.js"></script>
+		
+	</body>
+
+</html>

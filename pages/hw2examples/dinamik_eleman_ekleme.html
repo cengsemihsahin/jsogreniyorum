@@ -1,0 +1,113 @@
+<html>
+
+	<head>
+	
+		<title>Dinamik Olarak Eleman Ekleme</title>
+		
+		<style type = "text/css">
+		
+			@import url(../../css/dinamik_eleman_ekleme_css.css);
+			
+		</style>
+		
+	</head>
+
+	<body>
+	
+		<div class = "anaBolme">
+		
+			<div class = "bolme1"> <!-- 6 kisim -->
+			
+				<div id = "bolme1_1">
+				
+					<h1 id = "baslik">Baslik Ekleme Modulu</h1>
+					
+					<input type = "text" id = "baslikMetni" placeholder = "metin gir"><br>
+					<button id = "dugme1" onClick = "baslikEkle(&quot;h1&quot;)">Baslik 1 ekle</button>
+					<button id = "dugme2" onClick = "baslikSil(&quot;h1&quot;)">Baslik 1 sondan sil</button><br>
+					<button id = "dugme1" onClick = "baslikEkle(&quot;h2&quot;)">Baslik 2 ekle</button>
+					<button id = "dugme2" onClick = "baslikSil(&quot;h2&quot;)">Baslik 2 sondan sil</button><br>
+					<button id = "dugme1" onClick = "baslikEkle(&quot;h3&quot;)">Baslik 3 ekle</button>
+					<button id = "dugme2" onClick = "baslikSil(&quot;h3&quot;)">Baslik 3 sondan sil</button><br>
+					<button id = "dugme1" onClick = "baslikEkle(&quot;h4&quot;)">Baslik 4 ekle</button>
+					<button id = "dugme2" onClick = "baslikSil(&quot;h4&quot;)">Baslik 4 sondan sil</button><br>
+					<button id = "dugme1" onClick = "baslikEkle(&quot;h5&quot;)">Baslik 5 ekle</button>
+					<button id = "dugme2" onClick = "baslikSil(&quot;h5&quot;)">Baslik 5 sondan sil</button><br>
+					<button id = "dugme1" onClick = "baslikEkle(&quot;h6&quot;)">Baslik 6 ekle</button>
+					<button id = "dugme2" onClick = "baslikSil(&quot;h6&quot;)">Baslik 6 sondan sil</button><br>
+				
+				</div>
+				
+				<div id = "bolme1_2">
+				
+					<h1 id = "baslik">Paragraf Ekleme Modulu</h1>
+				
+					<textarea id = "paragrafMetni"></textarea><br>
+					<button id = "dugme3" onClick = "paragrafEkle()">Paragraf ekle</button>
+					<button id = "dugme4" onClick = "paragrafSil()">Paragraf sondan sil</button><br>
+				
+				</div>
+				
+				<div id = "bolme1_3">
+				
+					<h1 id = "baslik2">Bazi Taglerden Ekleme Modulu</h1>
+					
+					<input type = "text" id = "yaziMetni" placeholder = "metin gir"><br>
+					<button id = "dugme5" onClick = "egikEkle()">italik ekle</button>
+					<button id = "dugme6" onClick = "egikSil()">italik sondan sil</button><br>
+					<button id = "dugme7" onClick = "kalinEkle()">kalin ekle</button>
+					<button id = "dugme8" onClick = "kalinSil()">kalin sondan sil</button><br>
+					<button id = "dugme9" onClick = "markEkle()">mark ekle</button>
+					<button id = "dugme10" onClick = "markSil()">mark sondan sil</button><br>
+					<button id = "dugme11" onClick = "subEkle()">sub ekle</button>
+					<button id = "dugme12" onClick = "subSil()">sub sondan sil</button><br>
+					<button id = "dugme13" onClick = "supEkle()">sup ekle</button>
+					<button id = "dugme14" onClick = "supSil()">sup sondan sil</button>
+				
+				</div>
+				
+				<div id = "bolme1_4">
+				
+					<h1 id = "baslik2">Dugme Ekleme Modulu</h1>
+					
+					<input type = "text" id = "dugmeMetni" placeholder = "metin gir"><br>
+					<button id = "dugme15" onClick = "dugmeEkle()">Dugme ekle</button>
+					<button id = "dugme16" onClick = "dugmeSil()">Dugme sondan sil</button><br>
+				
+				</div>
+				
+				<div id = "bolme1_5">
+				
+					<h1 id = "baslik2">Link Ekleme Modulu</h1>
+				
+					<input type = "text" id = "linkMetni" placeholder = "metin gir"><br>
+					<input type = "text" id = "linkAdresi" placeholder = "adres gir"><br>
+					<button id = "dugme17" onClick = "linkEkle()">Link ekle</button>
+					<button id = "dugme18" onClick = "linkSil()">Link sondan sil</button><br>
+				
+				</div>
+				
+				<div id = "bolme1_6">
+				
+					<h1 id = "baslik2">Resim Ekleme Modulu</h1>
+					
+					<button id = "dugme19" onClick = "resimEkle()">Resim ekle</button><br>
+					<button id = "dugme19" onClick = "resimSil()">Resim sil</button>
+				
+				</div>
+			
+			</div>
+			
+			<div id = "bolme2"> <!-- 1 kisim -->
+			
+				<div id = "resimIcin"></div>
+			
+			</div>
+		
+		</div>
+	
+		<script src = "../../js/dinamik_eleman_ekleme_script.js"></script>
+	
+	</body>
+
+</html>

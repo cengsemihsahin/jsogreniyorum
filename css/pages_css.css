@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	color: black;
+	font-family: verdana;
+	font-size: 27px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+b {
+	color: black;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: rgb(255, 255, 0);
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+a:active {
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+a:focus {
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	text-indent: 50px;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
