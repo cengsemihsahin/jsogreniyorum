@@ -6,9 +6,8 @@ Adam Asmaca: https://www.youtube.com/watch?v=nfmjDDNGWrg<br/>
 Form Ekrani: https://www.youtube.com/watch?v=zxMsqtnLXC8<br/>
 Alisveris Listesi: https://www.youtube.com/watch?v=ig2IifiP_Vo<br/>
 Dinamik Eleman Ekleme: https://www.youtube.com/watch?v=QUmqhpOHC08<br/>
-<br\>
 # Links
-INDEX.HTML: https://cengsemihsahin.github.io/jsogreniyorum/index.html<br/>
+INDEX.HTML: https://cengsemihsahin.github.io/little-website-example-with-js/index.html<br/>
 Konu Anlatimlari: https://cengsemihsahin.github.io/jsogreniyorum/pages/router_pages/konu_anlatimlari.html<br/>
 Adam Asmaca: https://cengsemihsahin.github.io/jsogreniyorum/pages/hw2examples/adam_asmaca.html<br/>
 Form Ekrani: https://cengsemihsahin.github.io/jsogreniyorum/pages/hw2examples/form_ekrani.html<br/>
